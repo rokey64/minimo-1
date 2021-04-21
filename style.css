@@ -1,0 +1,195 @@
+/* Start Global CSS */
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.header-wrapper{
+    overflow: hidden;
+}
+.pad-70{
+    padding-top: 70px;
+}
+.text-align{
+    text-align: center;
+}
+/* End Global CSS */
+
+/* Start Header Style Area */
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.main-menu{
+    padding-top: 45px;
+}
+.logo{
+    float: left;
+    width: 200px
+}
+.logo img{
+    max-width: 100%;
+    display: block;
+    padding-top: 9px;
+}
+.nav{
+    float: right;
+    width: 700px;
+}
+.nav-menu{
+    list-style: none;
+}
+.nav-menu li{
+    float: left;
+    font-size:14pt;
+    font-family:playFair Display ;
+    text-transform: uppercase;
+    margin-left: 80px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: #626262;
+}
+/* End Header Style Area */
+
+/* Start Banner Style Area */
+.banner{
+    padding-top: 70px;
+}
+.banner img{
+    width: 100%;
+}
+/* End Banner Style Area */
+
+/* Start Photodiary Style Area */
+    .tag , .comment{
+        font-family: Ubuntu;
+        color: #b4ad9e;
+        font-size: 14pt;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    h1.tittle{
+        font-size:30pt;
+        font-family:playFair Display ;
+        color: #626262;
+    }
+    p.description{
+        font-size:14pt;
+        font-family:playFair Display ;
+        color: #626262;
+        line-height: 1.7em;
+        margin-bottom: 40px;
+    }
+/* End Photodiary Style Area */
+
+
+/* Start Blog Style Area */
+.leftpost{
+    width: 47%;
+    
+}
+.leftpost img{
+    width: 100%;
+    margin-top: 100px;
+}
+.post-tag{
+    margin-top:20px;
+}
+h1.tittle{
+    font-size:28pt;
+    font-family:playFair Display ;
+    color: #626262;
+}
+.post-description{
+    text-align: justify;
+}
+.right-post{
+    width: 47%;
+    margin-left: 6%;
+}
+.right-post img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.raw{
+    display: flex;
+    
+}
+
+/* End Blog Style Area */
+
+/* Strat Newsletter Style Area */
+.newsletter-background{
+    background-color: #f0f0f0;
+    padding:30px 0;
+    padding-bottom: 70px;
+    margin-top: 50px;
+    
+}
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+.form-control{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+.input-group{
+    padding-top: 20px;
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: rotate(50deg);
+}
+/* End Newsletter Style Area */
+
+/* Strat Loading Style Area */
+
+hr{
+    width: 170px;
+}
+.loading{
+    padding: 100px 0;
+}
+.load{
+    text-align: center;
+    font-size:20pt;
+    font-family:playFair Display ;
+    color: #626262;
+}
+/* End Loading Style Area */
+
+/* Start Footer Style Area */
+
+footer{
+    background-color: #f0f0f0;
+    padding: 30px 0;
+    padding-bottom:40px;
+}
+.terms{
+    float: left;
+}
+.terms a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+
+}
+.social-icon{
+    float: right;
+    
+}
+.fab{
+    margin-right: 20px;
+}
+/* End Footer Style Area */
